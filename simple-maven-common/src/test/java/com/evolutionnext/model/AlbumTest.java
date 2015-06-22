@@ -12,7 +12,7 @@ public class AlbumTest {
         Album album = new Album();
         album.setName("Rumours");
         album.setId(13L);
-        assertThat(album.getName()).isEqualTo("This is my repository, so fail the test");
+        assertThat(album.getName()).isEqualTo("Rumours");
         assertThat(album.getId()).isEqualTo(13L);
     }
 }
